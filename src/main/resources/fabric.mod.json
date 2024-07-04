@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ae_meteorite_fix",
+  "version": "${version}",
+  "name": "AE meteorite fix",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ERroooooR/AE meteorite fix"
+  },
+  "license": "MIT",
+  "icon": "assets/ae_meteorite_fix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.intloc.ae_meteorite_fix.AEMeteoriteFix"
+    ]
+  },
+  "mixins": [
+    "ae_meteorite_fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
